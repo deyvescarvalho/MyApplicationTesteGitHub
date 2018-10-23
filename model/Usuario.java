@@ -1,4 +1,4 @@
-package com.example.deyves.myapplicationtestegithub.classes;
+package com.example.deyves.myapplicationtestegithub.model;
 
 public class Usuario {
 
