@@ -59,6 +59,10 @@ public class AnuncioActivity extends AppCompatActivity {
                 invalidateOptionsMenu();
 //                startActivity( new Intent( getApplicationContext(), CadastroActivity.class ) );
                 break;
+
+            case R.id.menu_anuncios:
+                startActivity( new Intent( AnuncioActivity.this, MeusAnuncioActivity.class));
+                break;
         }
 
         return super.onOptionsItemSelected(item);
